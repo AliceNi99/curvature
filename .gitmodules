@@ -1,0 +1,4 @@
+[submodule "eig"]
+	path = external/eigen
+	url = https://gitlab.com/libeigen/eigen.git
+	branch = master
