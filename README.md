@@ -32,12 +32,12 @@ To run the code in this project, follow these steps:
    - Open a terminal and navigate to the root directory of the project.
    - For release build: 
    ```
-   cmake --preset mingw-release ..
+   cmake --preset mingw-release .
    cmake --build build/mingw-release
    ``` 
    - For debug build:
    ```
-    cmake --preset mingw-debug ..
+    cmake --preset mingw-debug .
     cmake --build build/mingw-debug
    ```
     The name of the executable will be `curvature`, but feel free to change it from the CMakeLists.txt file. You can also modify the build presets in the `CMakePresets.json` file to suit your environment.
