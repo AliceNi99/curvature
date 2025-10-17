@@ -3,8 +3,10 @@
 This project provides a C++ implementation for computing curvature on 3D meshes using different weighting schemes. It supports input files in STL, OBJ, and OFF formats and outputs in OBJ and PLY formats. 
 OBJ output files will contain per-vertex curvature information encoded as RGB `float`colors ranging in [0,1]. 
 PLY per-vertex colors are saved as `uchar` RGB in [0,255]. Additionally, PLY files will contain per-vertex curvature information as a scalar property
-## Authors: Alice Nicoletta
-![lldfqj0xt9bd1](https://github.com/user-attachments/assets/18c6f562-099b-4ed0-be91-f566f00690ce)
+## Authors:
+- Alice Nicoletta
+  
+    <img src="https://github.com/user-attachments/assets/18c6f562-099b-4ed0-be91-f566f00690ce" alt="Curvature" width="200">
 
 # Requirements 
     - g++ 15.2+ (MinGW-w64 for Windows)
