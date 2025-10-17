@@ -1,0 +1,7 @@
+.vscode/
+build/
+build2/
+meshes/
+debug.bat
+release.bat
+run.bat
