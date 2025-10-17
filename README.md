@@ -12,7 +12,7 @@ PLY per-vertex colors are saved as `uchar` RGB in [0,255]. Additionally, PLY fil
     - g++ 15.2+ (MinGW-w64 for Windows)
     - CMake 3.15+
     - Ninja 1.13.1+
-    - Eigen 3.3+ (either installed system-wide or included in the `external` folder). A submodule is provided already.
+    - Eigen 3.3+ (either installed system-wide or included in the `external` folder). A submodule is provided (read below).
 
 These requirements are quite conservative; older versions should also (maybe?) work fine.
 
@@ -23,6 +23,9 @@ To run the code in this project, follow these steps:
     ```
     git clone https://github.com/AliceNi99/curvature.git mean_curvature
     cd mean_curvature
+    ```
+    If you plan to use the provided Eigen submodule, make sure to initialize and update the submodules:
+    ```
     git submodule update --init --recursive
     ```
 2. **Build the Project**:
