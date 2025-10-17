@@ -8,11 +8,11 @@ PLY per-vertex colors are saved as `uchar` RGB in [0,255]. Additionally, PLY fil
   
     <img src="https://github.com/user-attachments/assets/18c6f562-099b-4ed0-be91-f566f00690ce" alt="Curvature" width="200">
 
-# Requirements 
-    - g++ 15.2+ (MinGW-w64 for Windows)
-    - CMake 3.15+
-    - Ninja 1.13.1+
-    - Eigen 3.3+ (either installed system-wide or included in the `external` folder). A submodule is provided (read below).
+# Requirements:
+- g++ 15.2+ (MinGW-w64 for Windows)
+- CMake 3.15+
+- Ninja 1.13.1+
+- Eigen 3.3+ (either installed system-wide or included in the `external` folder). A submodule is provided (read below).
 
 These requirements are quite conservative; older versions should also (maybe?) work fine.
 
