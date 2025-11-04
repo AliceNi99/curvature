@@ -4,6 +4,7 @@
 #include <sstream>
 #include <iostream>
 #include <chrono>
+#include <iomanip>
 
    bool Mesh::loadOFF(const std::string &filename) {
         std::ifstream infile(filename);
@@ -432,10 +433,6 @@ void Mesh::exportOBJ(const std::string& filename) {
     out.close();
     std::cout << "Mesh exported to " << filename << "\n";
 }
-
-#include <fstream>
-#include <iostream>
-#include <iomanip>
 
 void Mesh::exportPLY(const std::string& filename) {
     std::ofstream ofs(filename);
